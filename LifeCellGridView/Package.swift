@@ -15,7 +15,7 @@ let package = Package(
             targets: ["LifeCellGridView"]),
     ],
     dependencies: [
-        .package(path: "../ios-utils/Utils")
+        .package(path: "../../ios-utils/Utils")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
